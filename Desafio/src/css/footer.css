@@ -1,0 +1,60 @@
+:root{
+--backgroundcolor:#3a3939;
+--hfcolor:#fff348;
+--formtxtcoloro: #faffcff3;
+--fontsize:18px;
+--font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer {
+    height: 100%;
+    background-color:var(--hfcolor);
+    color: var(--backgroundcolor);
+    padding: 20px;
+    text-align: center;
+}
+
+.navfooter {
+    margin-bottom: 20px;
+}
+
+.navfooter h4 {
+    margin: 0;
+}
+
+.navfooter h4 a {
+    color: var(--backgroundcolor);
+    text-decoration: none;
+}
+
+.menu-footer  {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+a {
+    color: var(--backgroundcolor);
+    text-decoration: none;
+}
+
+.menu-footer li {
+    margin-bottom: 10px; 
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.icon-container a {
+    margin: 0 10px; 
+}
+
+#div-footer {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
